@@ -36,11 +36,10 @@ MATLAB
 Image Processing Toolbox (GLCM, edge detection, color space conversion)
 
 ## 📊 Output Categories
-Infestation Score	      Condition	Suggested Action
-    < 0.05	                Healthy	No pesticide needed
+   ** < 0.05	                Healthy	No pesticide needed
     0.05–0.1	            Mild Infestation	Apply mild fungicide or organic treatment
     0.1–0.25	            Moderate Infestation	Use contact insecticide; monitor nearby plants
-    > 0.25	                Severe Infestation	Use systemic pesticide; remove damaged leaves
+    > 0.25	                Severe Infestation	Use systemic pesticide; remove damaged leaves**
 
 ## 📝 Future Improvements
 Add support for batch image analysis.
