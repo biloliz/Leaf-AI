@@ -36,7 +36,7 @@ MATLAB
 Image Processing Toolbox (GLCM, edge detection, color space conversion)
 
 ## 📊 Output Categories  
-Infesttaion Score          Condition                Suggested Action
+Infestation Score          Condition                Suggested Action
    
    Less than 0.05            Healthy	               No pesticide needed
    
