@@ -53,6 +53,6 @@ Integrate real-time drone or satellite image input.
 
 Train a machine learning model for more accurate classification.
 
-📌 Disclaimer
+## 📌 Disclaimer
 This project is a proof of concept and not yet validated for all plant types or infestation patterns. For real-world agricultural use, further data collection and model tuning are recommended.
 
