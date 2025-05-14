@@ -71,10 +71,5 @@ else
 end
 
 %% Step 7: Display Result
-figure;
-imshow(img);
-title('Final Detection Result');
-
-% Display result in Command Window
 fprintf('Result: %s\n', result);
 fprintf('Suggested Action: %s\n', suggestion);
