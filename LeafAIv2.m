@@ -64,8 +64,5 @@ end
 result = sprintf('Plant Condition: %s', plantCondition);
 
 % Display Result
-figure;
-imshow(img);
-title(result);
 fprintf('Result: %s\n', result);
 fprintf('Suggested Action: %s\n', suggestion);
