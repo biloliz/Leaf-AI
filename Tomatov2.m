@@ -21,13 +21,13 @@ edges = edge(img_gray, 'Canny');
 % Pest Infestation Classification & Recommended Actions
 infestation_score = mean(pest_damage(:)) + stats.Contrast;
 if infestation_score < 0.03
-    condition = 'Healthy'; action = 'No pesticide needed, maintain soil health';
+    condition = 'Healthy'; action = 'No pesticide needed. The plant is in good condition.';
 elseif infestation_score < 0.08
-    condition = 'Mild Pest Presence'; action = 'Apply organic neem oil or insecticidal soap';
+    condition = 'Mild Pest Presence'; action = 'Apply mild fungicide or organic treatment like neem oil or insecticidal soap.';
 elseif infestation_score < 0.2
-    condition = 'Moderate Infestation'; action = 'Use contact insecticide (e.g., pyrethrin-based spray)';
+    condition = 'Moderate Infestation'; action = 'Use a contact insecticide (e.g., pyrethrin-based spray) and check nearby plants for spread.';
 else
-    condition = 'Severe Infestation'; action = 'Apply systemic pesticide (e.g., imidacloprid); prune damaged leaves';
+    condition = 'Severe Infestation'; action = 'Apply systemic pesticide (e.g., imidacloprid); remove/prune damaged leaves';
 end
 
 % Output Results
