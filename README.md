@@ -1,5 +1,5 @@
 # 🌿 LeafAI
-## Smart Leaf Disease Detection and Health Monitoring System
+## Simple Leaf Pest Detection System
 LeafAI is a MATLAB-based image processing tool designed to assess plant leaf health using color, texture, and shape analysis. It detects early signs of infestation or damage, classifies the plant condition, and provides treatment suggestions—empowering farmers and researchers with actionable insights.
 
 ## 📸 How It Works
@@ -39,12 +39,10 @@ Image Processing Toolbox (GLCM, edge detection, color space conversion)
 Infestation Score          Condition                Suggested Action
    
    Less than 0.05            Healthy	               No pesticide needed
-   
-   0.05–0.1	                 Mild Infestation	      Apply mild fungicide or organic treatment
      
-   0.1–0.25	                 Moderate Infestation	   Use contact insecticide; monitor nearby plants
+   0.05–0.4	                 Moderate Infestation	   Use contact insecticide; monitor nearby plants
    
-   Greater than 0.25	        Severe Infestation	      Use systemic pesticide; remove damaged leaves
+   Greater than 0.4	        Severe Infestation	      Use systemic pesticide; remove damaged leaves
  
 ## 📝 Future Improvements
 Add support for batch image analysis.
