@@ -1,6 +1,6 @@
 # 🌿 Leafalyze
 ## Simple Leaf Pest Detection System
-LeafAI is a MATLAB-based image processing tool designed to assess plant leaf health using color, texture, and shape analysis. It detects early signs of infestation or damage, classifies the plant condition, and provides treatment suggestions—empowering farmers and researchers with actionable insights.
+Leafalyze is a MATLAB-based image processing tool designed to assess plant leaf health using color, texture, and shape analysis. It detects early signs of infestation or damage, classifies the plant condition, and provides treatment suggestions—empowering farmers and researchers with actionable insights.
 
 ## 📸 How It Works
 Input: Load and resize a leaf image.
